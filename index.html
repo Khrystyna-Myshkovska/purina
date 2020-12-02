@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purina Pro Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <header>
+                <div class="logo-container">
+                    <img height="180px" src="images/logo1.svg" alt="purina pro plan logo">
+                </div>
+            </header>
+            <h1>Order puppy packages</h1>
+            <div class="forms-container">
+                <div class="container-form-left">
+                    <form action="">
+                        <div class='full-input'>
+                            <label class="label-form-up" for='today-date'>Today's date</label>
+                            <input class="input-form-up"  type='text' name='today-date'></input>
+                        </div>
+                        <div class='full-input'>
+                            <label class="label-form-up" for='name'>Name</label>
+                            <input class="input-form-up"  type='text' name='name'></input>
+                        </div>
+                        <div class='full-input'>
+                            <label class="label-form-up" for='address'>Address</label>
+                            <input class="input-form-up"  type='text' name='address'></input>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <div class='full-input' style="width: 35%;">
+                                <label class="label-form-up" for='zipcode'>Zip Code</label>
+                                <input class="input-form-up"  type='text' name='zipcode'></input>
+                            </div>
+                            <div class='full-input' style="width: 60%;">
+                                <label class="label-form-up"  for='town'>Town</label>
+                                <input class="input-form-up"  type='text' name='town'></input>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="container-form-right">
+                    <form action="">
+                        <div class='full-input'>
+                            <label class="label-form-up" for='tel'>Telephone</label>
+                            <input class="input-form-up"  type='tel' name='tel'></input>
+                        </div>
+                        <div class='full-input'>
+                            <label class="label-form-up" for='kennelname'>Kennel name</label>
+                            <input class="input-form-up"  type='text' name='kennelname'></input>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <div class='full-input' style="width: 35%;">
+                                <label class="label-form-up" for='puppiesnum'>Number of puppies</label>
+                                <input  class="input-form-up"  type='text' name='puppiesnum'></input>
+                            </div>
+                            <div class='full-input' style="width: 60%;">
+                                <label class="label-form-up" for='datebirth'>Date of birth</label>
+                                <input class="input-form-up"  type='date' name='datebirth'></input>
+                            </div>
+                        </div>
+                        <div class='full-input'>
+                            <label class="label-form-up" for='breed'>Breed</label>
+                            <input class="input-form-up"  type='text' name='breed'></input>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           <div style="display: flex; justify-content: space-between;  margin: 15px 0 50px 0;">
+                <div class="block-puppies1">
+                    <div style="display: flex;">
+                        <img height="90px" src="images/img1.png" alt="Pro Plan OptiStart">
+                        <img height="90px" src="images/img2.png" alt="Pro Plan OptiDerma">
+                    </div>
+                    <form action="">
+                        <p class="text-under-img">Small & mini</p>
+                        <input type="checkbox" class="custom-checkbox" id="optiStart" name="optiStart">
+                        <label for="optiStart">Pro Plan OptiStart Puppy 12272132</label>
+                    </form>
+                </div>
+                <div class="block-puppies2">
+                    <div style="display: flex;">
+                        <img height="90px" src="images/img3.png" alt="Pro Plan OptiStart">
+                        <img height="90px" src="images/img4.png" alt="Pro Plan OptiDerma">
+                        <img height="90px" src="images/img5.png" alt="Pro Plan OptiDigest">
+                    </div>
+                    <form action="">
+                        <p class="text-under-img">medium</p>
+                        <input type="checkbox" class="custom-checkbox" id="optiStartM" name="optiStartM">
+                        <label for="optiStartM">Pro Plan OptiStart Puppy 12272214</label>
+                        <input type="checkbox" class="custom-checkbox" id="optiDermaM" name="optiDermaM">
+                        <label for="optiDermaM">Pro Plan OptiDerma Puppy 12272213</label>
+                        <input type="checkbox" class="custom-checkbox" id="optiDigestM" name="optiDigestM">
+                        <label for="optiDigestM">Pro Plan OptiDigest Puppy 12278099</label>
+                    </form>
+                </div>
+                <div class="block-puppies3">
+                    <div style="display: flex;">
+                        <img height="90px" src="images/img6.png" alt="Pro Plan OptiStart">
+                    </div>
+                    <form action="">
+                        <p class="text-under-img">large athletic</p>
+                        <input type="checkbox" class="custom-checkbox" id="optiStartL" name="optiStartL">
+                        <label for="optiStartL">Pro Plan OptiStart Puppy 12272432</label>
+                    </form>
+                </div>
+                <div class="block-puppies4">
+                    <div style="display: flex;">
+                        <img height="90px" src="images/img7.png" alt="Pro Plan OptiStart">
+                    </div>
+                    <form action="">
+                        <p class="text-under-img">large robust</p>
+                        <input type="checkbox" class="custom-checkbox" id="optiStartR" name="optiStartR">
+                        <label for="optiStartR">Pro Plan OptiStart Puppy 12272431</label>
+                    </form>
+                </div>
+           </div>
+            <p class="text-p">
+                Your puppy bags will be delivered to the address you state above.
+           </p>
+           <p class="text-p">Send your order to: pppbc@vetzoo.se</p>
+           <p class="text-p">Good luck with your puppies !</p>
+        </div>
+        <p class="text-p contact">konsumentkontakt@purina.nestle.com</p>
+    </main>
+   <footer>
+       <div>
+        <img height="50px" src="images/logo.png" alt="logo footer">
+       </div>
+   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
